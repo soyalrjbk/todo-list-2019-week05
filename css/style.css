@@ -28,7 +28,7 @@ body{
     margin-top:-22px;
     display:flex;
     flex-direction:column;
-    gap:3px;
+    gap:2px;
 }
 .text{
     background:transparent;
@@ -36,17 +36,34 @@ body{
     outline:none; /*Removes the outline that the browser automatically puts around an input when you click on it or tab into it*/
     font-size:25px;
     flex: 1;
+    font-style:italic;
+}
+.taskList{
+    width:100%;
+    display:flex;
 }
 .clb{
-   
     text-align:center;
     margin:10px;
 }
 button{
-    padding-top:-100px;
     width:90px;
     height:40px;
-    color:red;
     font-size:14px;
     font-weight:bold;
+    margin:0 80px 0 50px;
+}
+.clearCompleted{
+    width:150px;
+    border-radius:10px;
+    color:rgb(23, 23, 165);
+    font-weight: bold;
+    font-size:15px;
+}
+.clearAll{
+    width:150px;
+    border-radius:10px;
+    color:red;
+    font-weight: bold;
+    font-size:15px;
 }

@@ -12,9 +12,22 @@ for (let i=0; i<checkboxes.length; i++){
     }
     );
 }
-const clearButton=document.querySelector(".clearButton");
-clearButton.addEventListener("click", clearAll);
-function clearAll(){
+const clearCompleted=document.querySelector(".clearCompleted");
+clearCompleted.addEventListener("click", clearSelected);
+function clearSelected(){
+    for(let i=0; i<checkboxes.length; i++)
+    {
+       if (checkboxes[i].checked)
+       {
+        text[i].value="";
+        text[i].style.textDecoration="none";
+        checkboxes[i].checked=false;
+       }
+    }
+}
+const clearAll=document.querySelector(".clearAll");
+clearAll.addEventListener("click", clearEverything);
+function clearEverything(){
     for(let i=0; i<checkboxes.length; i++)
     {
         checkboxes[i].checked=false;
