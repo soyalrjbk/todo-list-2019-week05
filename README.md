@@ -3,7 +3,7 @@
 
 ### Goal: Build a Simple Todo List
 
-<img width="400" height="350" alt="Screenshot 2026-09-05 at 2 39 02 AM" src="https://github.com/user-attachments/assets/4f9c8378-29ec-4e3d-95d8-5762447cd272" />
+<img width="600" height="400" alt="To-Do List" src="https://github.com/user-attachments/assets/d39f9df4-f82b-4242-bd7f-18b7ac14ff4b" />
 </div>
 
 
